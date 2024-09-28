@@ -5,7 +5,7 @@
 
 body{
     font-family: "Oswald", sans-serif;
-    background-color: rgb(29, 3, 63);
+    background-color: #551A8B;
 
 }
 
@@ -33,7 +33,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgb(29, 3, 63);
+    background-color: #551A8B;
     color:aliceblue
 }
 
@@ -45,6 +45,7 @@ section{
    
 }
 
+
 #parentContainer{
     display:flex;
     flex-direction: row-reverse;
@@ -53,7 +54,7 @@ section{
     width: 50%;
     padding: 40px;
     align-items: center;
-
+    min-width: 1200px;
 }
 
 #imgContainer{
@@ -69,6 +70,108 @@ section{
 
 h1{
     font-size: 60px;
+    text-align: center;
+    color:#551A8B;
+    
+
+}
+
+h2{
+    font-size: 50px;
+}
+
+
+#inspo{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: auto;  
+    width: 50%;
+    padding: 40px;
+    min-width: 1200px;
+
+}
+
+.erik{
+    display:flex;
+    align-items: center;
+    margin:50px 0;
+}
+
+.erik img{
+    margin-right: 20px;
+    width: 500px;
+
+}
+
+.textContent{
+    display:flex;
+    flex-direction: column;
+    padding: 0 50px;
+
+}
+
+.lauren{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lauren img{
+    margin-right: 20px;
+    width: 500px;
+
+}
+
+
+h4 {
+    background-color:rgb(241, 241, 241);
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 10px;
+
+}
+
+#topFive{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: auto;  
+    width: 50%;
+    padding: 40px 0;
+    min-width: 1200px;
+
+}
+
+.hobbyContainer{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.difinition{
+    margin: 50px 5px;
+    background-color: #444444;
+    color: white;
+    padding: 20px 0;
+}
+
+.difinition dd{
+    margin-left: 10px;
+
+
+}
+
+.difinition img{
+    width: 195px;
+
+}
+
+dd{
+    font-size: 30px;
+    text-align: center;
 
 }
 
@@ -77,7 +180,7 @@ footer{
     text-align: center;
     color: aliceblue;
     min-height: 100px;
-    padding-bottom: 10px;
+    
    
 }
 
