@@ -125,6 +125,10 @@ h2{
 
 }
 
+p{
+    padding:0 10px;
+}
+
 
 h4 {
     background-color:rgb(241, 241, 241);
@@ -171,7 +175,7 @@ h4 {
 
 .recomContent{
     display: flex;
-    align-items: center;
+    padding: 30px;
     margin: 20px 20px;
     background-color: lightgray;
 
