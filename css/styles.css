@@ -85,7 +85,7 @@ h2{
 
 #inspo{
     display:flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     margin: auto;  
     width: 50%;
@@ -115,7 +115,6 @@ h2{
 
 .lauren{
     display:flex;
-    justify-content: space-between;
     align-items: center;
 
 }
@@ -188,7 +187,6 @@ h4 {
     flex-grow: 1;
     text-align: left;
 
-
 }
 
 dd{
@@ -203,7 +201,6 @@ footer{
     color: aliceblue;
     min-height: 100px;
     
-   
 }
 
 footer a{
